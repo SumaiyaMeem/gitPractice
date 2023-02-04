@@ -1,0 +1,13 @@
+<suite name="Suite1">
+	<test name="Test1">
+
+		<classes>
+			<class name="com.bit.ui.test.SmokeTest" />
+			<methods>
+				<include name="ui"></include>
+				
+			</methods>
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

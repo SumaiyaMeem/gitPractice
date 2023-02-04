@@ -1,0 +1,14 @@
+<suite name="Suite1">
+	<listeners>
+		<listener class-name="ListenerConcept.BaseListener"></listener>
+
+
+	</listeners>
+	<test name="SmokeTest">
+		<packages>
+			<package name="com.bit.ui.test">
+
+			</package>
+		</packages>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,22 @@
+<suite parallel="false" name="Suite">
+	<test name="Test">
+	<parameter name = "browser" value ="Chrome"></parameter>
+		
+
+		<classes>
+			<class name="com.bit.ui.test.SmokeTest" />
+			<class name="com.bit.ui.test.RegTest" />
+
+		</classes>
+	</test> 
+	<test name ="Test2">
+	<parameter name = "browser" value ="FireFox"></parameter>
+	<classes>
+			<class name="com.bit.ui.test.SmokeTest" />
+			<class name="com.bit.ui.test.RegTest" />
+
+		</classes>
+	
+	
+	</test><!-- Test -->
+</suite> <!-- Suite -->

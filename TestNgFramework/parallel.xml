@@ -1,0 +1,16 @@
+<suite parallel="methods" name="Suite">
+//parallel = "classes", parallel = "tests" 
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="ui"></include>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.bit.ui.test.SmokeTest" />
+			<class name="com.bit.ui.test.RegTest" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
